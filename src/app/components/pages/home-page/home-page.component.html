@@ -1,0 +1,14 @@
+<p>home-page works!</p>
+<ng-container *ngFor="let pokemon of obtenerDataPokemons" class="card-container">
+    <section class="card">
+        <img [src]= "pokemon.status.sprites.front_default" alt= "pokemon.name">
+        <ul style="list-style-type: none">
+            <li>
+                <h3>Nombre: {{ pokemon.name }}</h3>
+            </li>
+            <li *ngFor="let value of pokemon.status.types">
+                <h3>{{value.type.name}}</h3>
+            </li>
+        </ul>
+    </section>
+</ng-container>

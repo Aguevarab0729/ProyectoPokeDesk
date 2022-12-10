@@ -20,6 +20,7 @@
             "outputPath": "dist/proyecto-poke-desk",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "preserveSymlinks": true,
             "polyfills": [
               "zone.js"
             ],
@@ -100,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "2360911a-3019-4996-bc87-ae079cba04f1"
   }
 }
