@@ -5,6 +5,7 @@ import { catchError, map, Observable, tap, throwError,  } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
+
 export class DataPokemonService {
 
   private url: string = 'https://pokeapi.co/api/v2/pokemon?limit=151&offset=0';

@@ -1,0 +1,15 @@
+<app-search (buscadorEmmitter)="searchPoke($event)"></app-search>
+
+<div class="containerCards" style="display: flex; flex-wrap: wrap; width: 100%; justify-content: center;">
+    <ng-container *ngFor="let pokemon of obtenerDataPokemons">
+        <section class="card">
+            <ul style="list-style-type: none">
+                <h3>Nombre: {{ pokemon.name }}</h3>
+                <li *ngFor="let value of pokemon.status.types">
+                    {{value.type.name}}
+                </li>
+                <img [src]= "pokemon.status.sprites.front_default" [alt]= "pokemon.name" class="imgcard">
+            </ul>
+        </section>
+    </ng-container>
+</div>
