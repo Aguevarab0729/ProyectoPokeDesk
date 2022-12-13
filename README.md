@@ -14,7 +14,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Prototipo en figma
 
-![Prototipo en figma](https://github.com/Aguevarab0729/ProyectoPokeDesk/blob/main/src/assets/img/prototipo)
+![Prototipo en figma](https://github.com/Aguevarab0729/ProyectoPokeDesk/blob/main/src/assets/img/prototipo.PNG)
 
 ## Components
 5 components
