@@ -1,27 +1,42 @@
-# ProyectoPokeDesk
+![Titulo](https://github.com/Aguevarab0729/ProyectoPokeDesk/blob/main/src/assets/img/LogoPokemon.png)
+# Descripción de proyecto
+Los principales usuarios de esta página son aficionados a pokemon... Por eso entrar a visitar la web, para revisar cuales son los 151 pokemons de la primera generación.
+Se determino que los datos que mas les interesa de estos son ataque, defensa.
+
+## Podras obtener la siguiente información
+
+- nombre
+- imagen
+- ataque
+- defensa
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
 
-## Development server
+## Prototipo en figma
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![Prototipo en figma](https://github.com/Aguevarab0729/ProyectoPokeDesk/blob/main/src/assets/img/prototipo)
 
-## Code scaffolding
+## Components
+5 components
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+header, search, Sidenav, cards, footer
 
-## Build
+1 Servicio
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+DataPokemon
 
-## Running unit tests
+## Temas de investigación y aplicación
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Api Rest
+Manejo y consumo de API
+Estructura en Angular(Componentes, servicios, enrutamiento, métodos)
+Git y github
+Manejo del DOM en typescript
+Sass (scss) y figma
+Despliegue en GitHubPages
 
-## Running end-to-end tests
+## Material de apoyo
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+API Pokemon
+videos Youtube
+Alguna info que solo se aplica a js y que fue dificil de entender para javascript

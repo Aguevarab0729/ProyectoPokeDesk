@@ -1,4 +1,9 @@
 <form>
-    <img src="/src/assets/img/lupa.png" alt="lupa">
-    <input type="text" #input (keyup)="buscador(input.value)" placeholder="Buscar">
+    <div>
+        <app-side-nav></app-side-nav>
+    </div>
+    <div>
+        <img src="/src/assets/img/lupa.png" alt="lupa" class="searchImg">
+        <input type="text" #input (keyup)="buscador(input.value)" placeholder="Buscar">
+    </div>
 </form>

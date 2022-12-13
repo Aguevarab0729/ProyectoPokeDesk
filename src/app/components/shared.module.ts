@@ -5,12 +5,14 @@ import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './header/header/header.component';
 import { SearchComponent } from './search/search.component';
 import { CardsComponent } from './cards/cards.component';
+import { SideNavComponent } from './nav/side-nav/side-nav.component';
 
 @NgModule({
     declarations: [
         HeaderComponent,
         SearchComponent,
-        CardsComponent
+        CardsComponent,
+        SideNavComponent
     ],
     exports: [
         HeaderComponent,
